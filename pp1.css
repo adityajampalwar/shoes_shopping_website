@@ -1,0 +1,43 @@
+
+body{
+    background-color: #f0f0f0f0;
+}
+
+.container-fluid{
+    background-color: blueviolet;
+}
+.navbar-brand img{
+    height:50px;
+    width:120px;
+}
+.nav-item :hover{
+    cursor:pointer;
+    color: black;
+    border-bottom: 20px;
+    border-color: brown;
+    transition:scale(100x);
+    
+
+}
+@media screen and (min-width:576px){
+    .carosel-inner{
+        display:flex;
+        display: inline-block;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-right:20%;
+    }
+    .carsousel-item{
+       
+       
+    }
+}
+.carousel-inner{
+    padding:1em;
+}
+.card{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+

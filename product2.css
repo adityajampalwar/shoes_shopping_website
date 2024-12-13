@@ -1,0 +1,169 @@
+*{
+  
+    margin:0;
+    padding:0;
+}
+.card{
+    display: flex;
+    margin-top:22px;
+    
+}
+.images{
+  width:50px;
+
+  
+
+}
+.img1{
+    width:66px;
+    margin-left:50px;
+
+}
+.images:hover{
+    cursor: pointer;
+    background-color: rgb(255,255,255,0);
+}
+.left{
+    margin-left:5%;
+}
+.left img{
+    width:366px;
+    margin-inline: 22px;;
+
+
+}
+.card .img{
+width:74px;
+margin-left:22px;
+float: left;
+}
+.card .right{
+    margin-top:11px;
+
+}
+.right h3{
+    margin-top:11px;
+}
+.right h1{
+    margin-top:11px;
+}
+
+.right i{
+    margin-top:11px;
+}
+.right h4{
+    margin-top:11px;
+}
+.right p{
+    margin-top:11px;
+}
+.right button{
+    width:200px;
+    height:50px;
+    background-color: rgb(240, 106, 57);
+    color: white;
+    border: none;
+    margin-top:22px;
+
+  font-weight:600;
+  margin-left:1px;
+
+}
+.right button:hover{
+    background-color: rgb(255, 136, 0);
+    cursor:pointer;
+}
+.right{
+    margin-left: 10px;
+    float: left;
+}
+.search1{
+    padding:5px 5px;
+    width:180px;
+}
+ button .color{
+    padding:5px 5px;
+    background-color: green;
+}
+table tr td img{
+    width:70px;
+    padding-left: 10px;;
+    cursor:pointer;
+}
+.button11{
+   width:50px;
+   margin-left:2px; ;
+   padding-left:10px;;
+  cursor:pointer;
+}
+.submit{
+    padding:2px 2px;
+    width:80px;
+    height:30px;
+background-color:rgb(240, 106, 57);
+border: none;
+
+}
+.submit:hover{
+    background-color: rgb(255, 136, 0);
+    cursor:pointer;
+}
+footer{
+    margin-top: 5px;;
+     background-color: black;
+     width:100%;
+     height:70%;
+     color:#fff;
+    padding-top: 5px;;
+ 
+   
+ }
+ .footer .section{
+     padding-top: 20px;;
+     display: flex;;
+     display: inline-block;
+     padding-left: 90px;;
+ 
+ }
+ .footer ul {
+     list-style: none;
+     color: #fff;
+ }
+ .footer ul a{
+     list-style: none;
+     text-decoration: none;
+ 
+     
+ }
+ .footer ul li{
+   padding-top: 15px;;
+   text-decoration: none;
+   list-style: none;
+ }
+ .footer ul:hover{
+     cursor: pointer;
+     color:#fff;
+     transform:scale(12px);
+     border-bottom: #fff;
+ }
+ .footer nav, ul .pagination{
+     margin-left: 40%;
+     margin-top:20px;
+ }
+ .section{
+    background-color: black;
+    height:250px;
+    width:850px;
+   
+
+ }
+ nav .pagination ul li{
+     background-color: rgba(51, 2, 2, 0.2,);
+ }
+ @media screen and (min-width:1200)
+ {
+     .card{
+         width:350px;
+     }
+ }
+
